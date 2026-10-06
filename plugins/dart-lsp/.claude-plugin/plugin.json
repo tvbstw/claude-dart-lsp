@@ -1,0 +1,12 @@
+{
+  "name": "dart-lsp",
+  "version": "0.1.0",
+  "description": "Dart analysis server (dart language-server) for Claude Code code intelligence",
+  "author": {
+    "name": "TVBS Media Inc."
+  },
+  "homepage": "https://github.com/tvbstw/claude-dart-lsp",
+  "repository": "https://github.com/tvbstw/claude-dart-lsp",
+  "license": "MIT",
+  "keywords": ["dart", "flutter", "lsp"]
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-dart-lsp",
+  "description": "Dart / Flutter code intelligence for Claude Code",
+  "owner": {
+    "name": "TVBS Media Inc."
+  },
+  "plugins": [
+    {
+      "name": "dart-lsp",
+      "description": "Dart analysis server (dart language-server) for Claude Code code intelligence",
+      "version": "0.1.0",
+      "source": "./plugins/dart-lsp",
+      "category": "development"
+    }
+  ]
+}
