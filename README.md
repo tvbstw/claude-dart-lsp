@@ -35,7 +35,7 @@ Add this to the project's `.claude/settings.json` and commit it:
 }
 ```
 
-Teammates who have not installed the plugin yet can run the two install commands above.
+This declares the marketplace and enables the plugin for the project, but as of Claude Code 2.1.290 it does not prompt teammates to install it: opening the project interactively showed no install prompt, and the marketplace did not appear in `/plugin`. Each teammate still needs to run the two install commands above once.
 
 ## Notes
 
@@ -44,7 +44,7 @@ Teammates who have not installed the plugin yet can run the two install commands
 
 ## 繁體中文說明
 
-讓 Claude Code 透過 Dart SDK 內建的 Analysis Server 查 Dart 符號的引用、定義與實作。前提是 PATH 上要有 `dart`，裝了 Flutter SDK 就有。安裝指令同上方「Install」。
+讓 Claude Code 透過 Dart SDK 內建的 Analysis Server 查 Dart 符號的引用、定義與實作。前提是 PATH 上要有 `dart`，裝了 Flutter SDK 就有。每人手動執行一次上方「Install」的兩行指令（裝在 user scope，所有 Dart／Flutter 專案都生效）；專案 settings 裡的宣告不會自動提示安裝。
 
 ## License
 
